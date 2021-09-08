@@ -1,0 +1,39 @@
+[map "b6babeb0-8933-322f-959e-5aeb849850d2"]
+	object = b5930a634015658338504c40f0335dff04589bc8
+	path = module1
+	stage = sync
+	type = extract module
+[map "ec281771-9a73-3404-9b97-38282050a5ec"]
+	object = dd044f60052f423adbb7eb58e9f809b398c122a5
+	path = module
+	stage = sync
+	type = extract module
+[module "663e682f-cbdc-32c2-be2c-c517816e2047"]
+	conflict = if **/** request-pull
+	path = module2
+	ref = if refs/heads/main sync refs/heads/master
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/400140845
+	user = if github-cloud:384196331 sync github-cloud:445945
+[module "4496d40f-fa69-38f4-a143-20326a136064"]
+	conflict = if **/** request-pull
+	path = module1
+	ref = if refs/heads/main sync refs/heads/master
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/400140845
+	user = if github-cloud:384196331 sync github-cloud:445945
+[module "824f9cb5-f2e6-3d63-bcb0-ae38a16c7104"]
+	conflict = if **/** request-pull
+	path = module
+	ref = if refs/heads/main sync refs/heads/main
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/390413016
+	user = if github-cloud:384196331 sync github-cloud:445945
+[map "05f47019-82da-31b4-b5b8-0136715a421b"]
+	object = b5930a634015658338504c40f0335dff04589bc8
+	path = module2
+	stage = sync
+	type = extract module
