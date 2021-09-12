@@ -1,0 +1,12 @@
+[module "8cf052e7-43fa-3550-92cb-126c7f4b1145"]
+	conflict = if **/** request-pull
+	path = module
+	ref = if refs/heads/bb sync refs/heads/master
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/400140845
+	user = if github-cloud:384196331 sync github-cloud:445945
+[map "bad71e9c-63c7-3078-a0fa-029bb92c5ae2"]
+	object = f25a0e6ce83f73cb0b0037add503347afbfa0a1f
+	path = module
+	type = extract module
