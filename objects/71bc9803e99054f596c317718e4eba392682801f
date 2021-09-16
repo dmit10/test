@@ -1,0 +1,15 @@
+[map "a769bae1-f7c8-3537-9ff2-734e971dfe0b"]
+	object = ff60a78b0789e3fb0f2dce0c5c2fda321118af94
+	path = module
+	stage = pull-request
+	type = expand module
+[map "bfd94fb8-e133-3598-b39c-aed462b6daa9"]
+	object = 3842259ddf37a86f583626485bbd89211903f9c2
+	path = module2
+	stage = sync
+	type = expand module
+[map "1d31448f-660e-39dc-bc0f-ac675a06b4b6"]
+	object = 3842259ddf37a86f583626485bbd89211903f9c2
+	path = module1
+	stage = sync
+	type = expand module
