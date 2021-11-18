@@ -3,13 +3,13 @@
 	path = module
 	stage = pull-request
 	type = expand module
-[map "da0a09ef-35d1-3179-90fd-4f252ed878c9"]
-	object = a89ac4704a88043f4c121c02a823bc224ca345b0
+[map "de860a1a-e913-38c5-a5ad-86c4117f0dd4"]
+	object = 9e2139c4f47c8defa3932aa79c7d6da8647acdeb
 	path = module1
 	stage = sync
 	type = expand module
-[map "53fd4bbf-32b6-328b-b473-70ffaab4f646"]
-	object = a89ac4704a88043f4c121c02a823bc224ca345b0
+[map "7ccad4d2-8874-35c8-a0a6-bc17498f5327"]
+	object = 9e2139c4f47c8defa3932aa79c7d6da8647acdeb
 	path = module2
 	stage = sync
 	type = expand module
