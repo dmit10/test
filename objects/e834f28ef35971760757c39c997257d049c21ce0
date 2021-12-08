@@ -13,11 +13,11 @@
 	path = module2
 	stage = sync
 	type = expand module
-[map "ad9e99c9-8869-32bc-a574-1112f387a27d"]
-	object = 1b4a0c205ee19ab450d6d5e3baf20cc8f54924b0
+[map "c819a989-46b4-37c9-b3d9-e9b065bab233"]
+	object = bbb99cb9cc9a2b77588a9e11a8c770908173fdd6
 	path = module1
 	type = expand module
-[map "f32591de-efba-3567-8414-f0f5e3f9675e"]
-	object = 1b4a0c205ee19ab450d6d5e3baf20cc8f54924b0
+[map "4dfdcf12-63e8-393b-b096-cf0423733d0d"]
+	object = bbb99cb9cc9a2b77588a9e11a8c770908173fdd6
 	path = module2
 	type = expand module
