@@ -1,0 +1,36 @@
+[map "522dcc14-98af-33cb-bf67-ceadc987f2d5"]
+	object = 52a29308613e3e18ec7b77227a450a3194edf37d
+	path = module1
+	stage = sync
+	type = extract module
+[map "88665e53-a023-3095-b4e1-249cb8ae90a7"]
+	object = 52a29308613e3e18ec7b77227a450a3194edf37d
+	path = module2
+	stage = sync
+	type = extract module
+[module "8c02719b-177d-347d-91e0-469a4ccbf93a"]
+	conflict = if **/** request-pull
+	path = module1
+	ref = if refs/heads/main sync refs/heads/master
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/400140845
+[module "070d365b-bf8b-33ae-a3ff-5905f1910ae3"]
+	conflict = if **/** request-pull
+	path = module2
+	ref = if refs/heads/main sync refs/heads/master
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/400140845
+[module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
+	conflict = if **/** request-pull
+	path = module
+	ref = if refs/heads/main sync refs/heads/main
+	sync = if **/** merge subtree
+	sync = if **/** squash never
+	url = agnostic://github-cloud/390413016
+[map "05f6b3a0-874a-3805-8e18-8dca23c192dc"]
+	object = f84387caf0ea64d04b07e24c7ad1f6ed35f861bb
+	path = module
+	stage = sync
+	type = extract module
