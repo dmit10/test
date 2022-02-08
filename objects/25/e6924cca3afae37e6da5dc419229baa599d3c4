@@ -19,16 +19,18 @@
 	sync = if **/** merge subtree
 	sync = if **/** squash never
 	url = agnostic://github-cloud/400140845
-[map "7cc772b3-f1a5-38a7-a0bf-f23f386f8af2"]
-	object = 3f1ead5a1669e91fef8539461910cf5f18099816
-	path = module1
-	type = extract module
-[map "4a67f33d-f57d-3617-af9b-002996c76bef"]
-	object = 3f1ead5a1669e91fef8539461910cf5f18099816
-	path = module2
-	type = extract module
 [map "16f22a10-2e61-3f24-9e78-660cb199ae2c"]
 	object = fa2cff8653b85b711f3047fc4ac2a0ab6bdb846a
 	path = module
+	stage = sync
+	type = extract module
+[map "673df5cd-6559-3304-924e-75c8300da24e"]
+	object = 3f1ead5a1669e91fef8539461910cf5f18099816
+	path = module1
+	stage = sync
+	type = extract module
+[map "93d9ce88-0d11-3b83-805c-95de1374a5d1"]
+	object = 3f1ead5a1669e91fef8539461910cf5f18099816
+	path = module2
 	stage = sync
 	type = extract module

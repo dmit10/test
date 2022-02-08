@@ -5,12 +5,8 @@
 	sync = if **/** merge subtree
 	sync = if **/** squash never
 	url = agnostic://github-cloud/400140845
-[map "693afec5-5caf-371e-b28b-c3ceb6f8eba6"]
-	object = a2c01b2bbbbad73e7c4a36953647c9fd7707acf0
-	path = module
-	type = extract module
-[map "faf9ceba-4ae6-3943-8b24-4a8f9957e464"]
-	object = 52a29308613e3e18ec7b77227a450a3194edf37d
+[map "b6fc2c7b-51cb-39e7-9ff6-3dbf026a505e"]
+	object = c4ed224ba93201cc47172f53bb778a2da9dce685
 	path = module
 	stage = pull-request
 	type = extract module
