@@ -1,7 +1,3 @@
-[map "0e0027d5-13ef-3d09-887d-4779f8e8c2f3"]
-	object = c4ed224ba93201cc47172f53bb778a2da9dce685
-	path = module
-	type = extract module
 [module "aeed691b-04a2-3155-a183-6fc01c44ba76"]
 	conflict = if **/** request-pull
 	path = module
@@ -9,3 +5,12 @@
 	sync = if **/** merge subtree
 	sync = if **/** squash never
 	url = agnostic://github-cloud/400140845
+[map "0472e756-3feb-37f8-b7b2-3c4ca159bbfe"]
+	object = 09829b961ce19f2480b96e596528fddaa0488774
+	path = module
+	type = extract module
+[map "b6fc2c7b-51cb-39e7-9ff6-3dbf026a505e"]
+	object = c4ed224ba93201cc47172f53bb778a2da9dce685
+	path = module
+	stage = pull-request
+	type = extract module
