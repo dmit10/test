@@ -1,11 +1,11 @@
-[map "d7134fc3-9f6f-380a-a09c-bf1768630718"]
-	object = 2c41a3d8fb282aa44cad5dc4c2ec7bbd3a5d75cc
-	path = module1
-	type = expand module
-[map "ee99a319-41ba-3c2b-bccc-1e1680338c8b"]
-	object = 2c41a3d8fb282aa44cad5dc4c2ec7bbd3a5d75cc
-	path = module2
-	type = expand module
 [map "f22f2653-b472-3e7e-a935-b42cfb285966"]
 	object = d2b59c6c5ad475fdfde9701a0352822d5648f609
 	type = include + expand tree
+[map "d1c59fa6-0955-388d-9745-321bda659ea7"]
+	object = 212cb4789afd6592d0c4deae7540ad49dfd93fd7
+	path = module1
+	type = expand module
+[map "bd4fa6fa-be41-375a-89c3-0e90c53f6299"]
+	object = 212cb4789afd6592d0c4deae7540ad49dfd93fd7
+	path = module2
+	type = expand module
