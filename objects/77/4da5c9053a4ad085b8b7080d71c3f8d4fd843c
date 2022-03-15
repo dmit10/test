@@ -5,3 +5,6 @@
 	object = 3bd98971d1943d0a551b4e49770ce018deb39ad1
 	path = module
 	type = expand module
+[map "8f00a0ac-0c72-3620-ad15-f621cda1c119"]
+	object = a69b1f82191753c5eb2e719502f89978ed69929f
+	type = include + expand tree
