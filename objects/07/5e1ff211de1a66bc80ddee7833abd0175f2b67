@@ -18,3 +18,5 @@
 	path = module
 	stage = pull-request
 	type = expand module
+[object]
+	state = initial

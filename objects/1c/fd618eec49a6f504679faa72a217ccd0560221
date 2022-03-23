@@ -8,3 +8,5 @@
 [map "3eb97b81-7d7c-31f9-bf02-fca6019a670e"]
 	object = 83b234fde4ac4adacf2804720d4d4c0464cb22a8
 	type = include + expand tree
+[object]
+	state = initial

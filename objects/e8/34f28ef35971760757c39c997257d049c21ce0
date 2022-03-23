@@ -21,3 +21,5 @@
 	object = 8d3e1847d860ebc0face968ef518402fc94e8664
 	path = module2
 	type = expand module
+[object]
+	state = initial

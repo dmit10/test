@@ -13,3 +13,5 @@
 	path = module1
 	stage = sync
 	type = expand module
+[object]
+	state = initial
