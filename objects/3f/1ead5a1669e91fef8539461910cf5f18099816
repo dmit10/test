@@ -17,11 +17,11 @@
 	object = 49ef7cdd56402fec54fa3125aa64c940b61e6714
 	path = module2
 	type = expand module
-[map "2f696ef5-09cc-33ec-8427-2cde38c880a7"]
-	object = 0db22397490a10b0c4fbac31d931561bbebf2cb9
+[map "0036449a-fc84-3441-a47b-f4638f663650"]
+	object = 726e9651c25144975b67ee100ecb65f578f13e24
 	path = module1
 	type = expand module
-[map "f8955b01-65c8-3ff9-9075-95d38ed91cbb"]
-	object = 0db22397490a10b0c4fbac31d931561bbebf2cb9
+[map "532dacad-ef9f-3b78-a8b9-51714b598e1a"]
+	object = 726e9651c25144975b67ee100ecb65f578f13e24
 	path = module2
 	type = expand module
