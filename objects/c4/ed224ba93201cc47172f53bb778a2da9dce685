@@ -14,3 +14,7 @@
 [map "94d61cab-ce37-35b8-bec7-a1aee54a7297"]
 	object = 40713533d16a685b3b765928bfa663204f86b184
 	type = include + expand tree
+[map "9c645c42-6ab3-38ec-b784-0648a9441a2c"]
+	object = 73b02386fc271ed03539846c8f9c551c217d69e4
+	path = module
+	type = expand module
